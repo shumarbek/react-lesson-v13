@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 const Layout = () => {
     return (
         <div>
-            <h1>Carusel</h1>
+            <Navbar />
             <h1>Video</h1>
             <h1>Pricing</h1>
         </div>
