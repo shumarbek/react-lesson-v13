@@ -8,6 +8,13 @@ const Main = () => {
 
             <section>
                 <div>
+                    <h1>Girl photo</h1>
+                    <img src="https://object.pixocial.com/pixocial/dmxffni837f1xrj8pki9xgrl.jpg" alt="" />
+                </div>
+            </section>
+
+            <section>
+                <div>
                     <h1>Youtube video</h1>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/H3FANZwkXpk?si=ekWcW-50k4JhzuG4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </div>

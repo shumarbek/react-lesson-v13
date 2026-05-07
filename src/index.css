@@ -23,6 +23,20 @@ header ul li a:hover {
 }
 
 
+
+main {
+    border: 10px solid black;
+    background: yellow;
+    padding: 20px;
+}
+
+main section {
+    border: 5px solid #999;
+}
+
+
+
+
 footer {
     border: 10px solid black;
     background: aqua;
