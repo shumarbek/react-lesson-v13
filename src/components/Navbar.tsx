@@ -1,6 +1,7 @@
 const Navbar = () => {
     return (
         <header>
+                <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
