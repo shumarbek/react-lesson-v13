@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Layout = () => {
@@ -6,6 +7,7 @@ const Layout = () => {
             <Navbar />
             <h1>Video</h1>
             <h1>Pricing</h1>
+            <Footer />
         </div>
     )
 }
