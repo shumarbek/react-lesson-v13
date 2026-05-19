@@ -1,11 +1,12 @@
-interface IProps {
-    username: string;
-}
+import { useContext } from "react";
+import { UserContext } from "../context/userContect";
 
-const Profile = (props: IProps) => {
-    return(
+const Profile = () => {
+    const username = useContext(UserContext);
+
+    return (
         <div>
-            <h1>{props.username}</h1>
+            <h1>{username}</h1>
         </div>
     )
 }
